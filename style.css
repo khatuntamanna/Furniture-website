@@ -136,6 +136,7 @@ nav .content .links li{
 }
 
 /* responsive */
+
 @media screen  and (max-width:1250px){
     .header nav{
         max-width: 100%;
@@ -165,7 +166,7 @@ nav .content .links li{
     nav .content .links{
         display: block;
         position: fixed;
-        background: white;
+        /* background: white; */
         height: 100%;
         width: 100%;
         top: 70px;
@@ -210,6 +211,7 @@ nav .content .links li{
 }
 .main-text h1{
     font-size: 60px;
+    margin-bottom: 20px;
     color: #fff;
     text-shadow: 0px 0px 1px black;
 }
@@ -226,13 +228,18 @@ nav .content .links li{
     letter-spacing: 1px;
     border: 2px solid #388b6f;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     transition: 0.5s;
     cursor: pointer;
 }
 #btn:hover{
     background-color: #388b6f;
     color: white;
+}
+@media screen and (max-width:1250px){
+    .home .main-text h1{
+        font-size: 20px;
+    }
 }
 
 /* Top section card start */
